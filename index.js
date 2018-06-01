@@ -19,6 +19,9 @@ function multiply(a, b) {
   return a * b;
 }
 
+/**
+ * divide function takes two integer arguments, divides them and returns the solution
+ **/
 function divide(a, b) {
   return a / b;
 }
