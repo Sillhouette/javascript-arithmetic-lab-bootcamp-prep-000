@@ -1,7 +1,3 @@
-function makeInt(a) {
-  return parseInt(a.toString(), 10);
-}
-
 function add(a, b) {
   return a + b;
 }
@@ -24,4 +20,12 @@ function inc(n) {
 
 function dec(n) {
   return n--;
+}
+
+function makeInt(a) {
+  return parseInt(a.toString(), 10);
+}
+
+function preserveDecimal (n) {
+  return parseFloat(n);
 }
