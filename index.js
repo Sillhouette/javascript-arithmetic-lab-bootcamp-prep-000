@@ -41,12 +41,16 @@ function dec(n) {
 }
 
 /**
-* makeInt takes string that contains numbers in as an argument and returns the numbers as an integer
+* makeInt takes a string that contains numbers in as an argument and returns the numbers as an integer
 **/
 function makeInt(a) {
   return parseInt(a.toString(), 10);
 }
 
+/**
+* preserveDecimal takes a string that contains numbers with a decimal point in as an argument and returns
+* the numbers as a float
+**/
 function preserveDecimal (n) {
   return parseFloat(n);
 }
