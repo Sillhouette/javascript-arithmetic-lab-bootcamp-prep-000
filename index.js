@@ -26,14 +26,23 @@ function divide(a, b) {
   return a / b;
 }
 
+/**
+* inc function takes one argument, increments it and then returns it
+**/
 function inc(n) {
   return ++n;
 }
 
+/**
+ *  dec function takes one argument, decrements it and then returns it
+ **/
 function dec(n) {
   return --n;
 }
 
+/**
+* makeInt takes string that contains numbers in as an argument and returns the numbers as an integer
+**/
 function makeInt(a) {
   return parseInt(a.toString(), 10);
 }
